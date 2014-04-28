@@ -4,8 +4,8 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="17"
-        android:targetSdkVersion="18" />
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
 
     <application
         android:allowBackup="true"
@@ -15,7 +15,7 @@
         
         <meta-data android:name="xposedmodule" android:value="true"/>
         <meta-data android:name="xposedminversion" android:value="2.1*"/>
-        <meta-data android:name="xposeddescription" android:value="Demonstration of the Xposed framework.\nMakes the status bar clock red."/>
+        <meta-data android:name="xposeddescription" android:value="An Xposed module to revert the changes to vibrate mode in Android 4.2"/>
         
     </application>
 
